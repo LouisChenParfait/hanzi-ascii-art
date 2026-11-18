@@ -6,7 +6,7 @@
 
 ![Preview: "博飞文化" rendered as vermilion-to-gold gradient character art on a dark stage](docs/preview.png)
 
-**MIT** · **single file** · **no build step** · **no backend** — an ASCII / Unicode art generator for Chinese (and, in fact, any text), built as the CJK counterpart to [patorjk TAAG](https://patorjk.com/software/taag/).
+**MIT** · **single file** · **no build step** · **no backend** · **[Live demo ↗](https://louischenparfait.github.io/hanzi-ascii-art/)** — an ASCII / Unicode art generator for Chinese (and, in fact, any text), built as the CJK counterpart to [patorjk TAAG](https://patorjk.com/software/taag/).
 
 ---
 
@@ -58,13 +58,13 @@ cd hanzi-ascii-art
 start index.html        # Windows; use `open` on macOS, `xdg-open` on Linux
 ```
 
-Because the whole tool is a single static HTML file, enabling GitHub Pages (Settings → Pages → deploy from the root of `main`) turns `index.html` itself into the live demo:
+Because the whole tool is a single static HTML file, GitHub Pages is enabled for this repository (deployed from the root of `main`), so `index.html` itself is the live demo:
 
 ```
 https://louischenparfait.github.io/hanzi-ascii-art/
 ```
 
-No second repository, no build pipeline. (This URL is not live until Pages is enabled.)
+No second repository, no build pipeline.
 
 ### Command line
 

@@ -6,7 +6,7 @@
 
 ![效果预览：玄黑底上的朱金渐变「博飞文化」字符画](docs/preview.png)
 
-**MIT** · **单文件** · **零构建** · **无后端** — 一个能处理中文（以及任意文字）的 ASCII / Unicode 字符画工具，对标 [patorjk TAAG](https://patorjk.com/software/taag/)，补上它做不了中文的空白。
+**MIT** · **单文件** · **零构建** · **无后端** · **[在线 Demo ↗](https://louischenparfait.github.io/hanzi-ascii-art/)** — 一个能处理中文（以及任意文字）的 ASCII / Unicode 字符画工具，对标 [patorjk TAAG](https://patorjk.com/software/taag/)，补上它做不了中文的空白。
 
 ---
 
@@ -58,13 +58,13 @@ cd hanzi-ascii-art
 start index.html        # Windows；macOS 用 open，Linux 用 xdg-open
 ```
 
-因为整个工具就是一个静态 HTML，启用仓库的 GitHub Pages（Settings → Pages → 从 `main` 分支根目录部署）后，`index.html` 本身就是在线 Demo：
+因为整个工具就是一个静态 HTML，仓库已启用 GitHub Pages（Settings → Pages → 从 `main` 分支根目录部署），`index.html` 本身就是在线 Demo：
 
 ```
 https://louischenparfait.github.io/hanzi-ascii-art/
 ```
 
-不需要第二个仓库、不需要构建流水线。（该地址在 Pages 启用前尚未生效。）
+不需要第二个仓库、不需要构建流水线。
 
 ### 命令行版
 
